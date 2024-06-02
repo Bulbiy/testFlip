@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.455" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
+    <property name="sun.boot.library.path" value="C:\Users\julia.sibarani\.jdks\jdk-11.0.18\bin"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Julia\etc\julia\testing\selenium-testng-framework-master\selenium-testng-framework-master"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Julia\etc\julia\testing\selenium-testng-framework-master\selenium-testng-framework-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JULIA~1.SIB\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\julia.sibarani\.jdks\jdk-11.0.18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\julia.sibarani\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\julia.sibarani\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\julia.sibarani\AppData\Local\Programs\Python\Python311\;C:\Users\julia.sibarani\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\julia.sibarani\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\julia.sibarani\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\julia.sibarani\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\julia.sibarani"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="julia.sibarani"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2 test"/>
+    <property name="java.home" value="C:\Users\julia.sibarani\.jdks\jdk-11.0.18"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="id"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Google search test" classname="example.example.tests.GoogleSearchTest" time="3.315">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DEV-LTP-461&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x0087A813+48355]&#10;	(No symbol) [0x0080C4B1]&#10;	(No symbol) [0x00715358]&#10;	(No symbol) [0x007361AC]&#10;	(No symbol) [0x00731EF3]&#10;	(No symbol) [0x00730579]&#10;	(No symbol) [0x00760C55]&#10;	(No symbol) [0x0076093C]&#10;	(No symbol) [0x0075A536]&#10;	(No symbol) [0x007382DC]&#10;	(No symbol) [0x007393DD]&#10;	GetHandleVerifier [0x00ADAABD+2539405]&#10;	GetHandleVerifier [0x00B1A78F+2800735]&#10;	GetHandleVerifier [0x00B1456C+2775612]&#10;	GetHandleVerifier [0x009051E0+616112]&#10;	(No symbol) [0x00815F8C]&#10;	(No symbol) [0x00812328]&#10;	(No symbol) [0x0081240B]&#10;	(No symbol) [0x00804FF7]&#10;	BaseThreadInitThunk [0x75E5FCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEV-LTP-461', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0087A813+48355]
+	(No symbol) [0x0080C4B1]
+	(No symbol) [0x00715358]
+	(No symbol) [0x007361AC]
+	(No symbol) [0x00731EF3]
+	(No symbol) [0x00730579]
+	(No symbol) [0x00760C55]
+	(No symbol) [0x0076093C]
+	(No symbol) [0x0075A536]
+	(No symbol) [0x007382DC]
+	(No symbol) [0x007393DD]
+	GetHandleVerifier [0x00ADAABD+2539405]
+	GetHandleVerifier [0x00B1A78F+2800735]
+	GetHandleVerifier [0x00B1456C+2775612]
+	GetHandleVerifier [0x009051E0+616112]
+	(No symbol) [0x00815F8C]
+	(No symbol) [0x00812328]
+	(No symbol) [0x0081240B]
+	(No symbol) [0x00804FF7]
+	BaseThreadInitThunk [0x75E5FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]
+
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 22219
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5792
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Google search test" classname="example.example.tests.GoogleSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DEV-LTP-461&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x0087A813+48355]&#10;	(No symbol) [0x0080C4B1]&#10;	(No symbol) [0x00715358]&#10;	(No symbol) [0x007361AC]&#10;	(No symbol) [0x00731EF3]&#10;	(No symbol) [0x00730579]&#10;	(No symbol) [0x00760C55]&#10;	(No symbol) [0x0076093C]&#10;	(No symbol) [0x0075A536]&#10;	(No symbol) [0x007382DC]&#10;	(No symbol) [0x007393DD]&#10;	GetHandleVerifier [0x00ADAABD+2539405]&#10;	GetHandleVerifier [0x00B1A78F+2800735]&#10;	GetHandleVerifier [0x00B1456C+2775612]&#10;	GetHandleVerifier [0x009051E0+616112]&#10;	(No symbol) [0x00815F8C]&#10;	(No symbol) [0x00812328]&#10;	(No symbol) [0x0081240B]&#10;	(No symbol) [0x00804FF7]&#10;	BaseThreadInitThunk [0x75E5FCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]&#10;"/>
+  </testcase>
+  <testcase name="Google search test" classname="example.example.tests.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Facebook login test" classname="example.example.tests.FaceBookLoginTest" time="4.072">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DEV-LTP-461&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x0087A813+48355]&#10;	(No symbol) [0x0080C4B1]&#10;	(No symbol) [0x00715358]&#10;	(No symbol) [0x007361AC]&#10;	(No symbol) [0x00731EF3]&#10;	(No symbol) [0x00730579]&#10;	(No symbol) [0x00760C55]&#10;	(No symbol) [0x0076093C]&#10;	(No symbol) [0x0075A536]&#10;	(No symbol) [0x007382DC]&#10;	(No symbol) [0x007393DD]&#10;	GetHandleVerifier [0x00ADAABD+2539405]&#10;	GetHandleVerifier [0x00B1A78F+2800735]&#10;	GetHandleVerifier [0x00B1456C+2775612]&#10;	GetHandleVerifier [0x009051E0+616112]&#10;	(No symbol) [0x00815F8C]&#10;	(No symbol) [0x00812328]&#10;	(No symbol) [0x0081240B]&#10;	(No symbol) [0x00804FF7]&#10;	BaseThreadInitThunk [0x75E5FCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEV-LTP-461', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0087A813+48355]
+	(No symbol) [0x0080C4B1]
+	(No symbol) [0x00715358]
+	(No symbol) [0x007361AC]
+	(No symbol) [0x00731EF3]
+	(No symbol) [0x00730579]
+	(No symbol) [0x00760C55]
+	(No symbol) [0x0076093C]
+	(No symbol) [0x0075A536]
+	(No symbol) [0x007382DC]
+	(No symbol) [0x007393DD]
+	GetHandleVerifier [0x00ADAABD+2539405]
+	GetHandleVerifier [0x00B1A78F+2800735]
+	GetHandleVerifier [0x00B1456C+2775612]
+	GetHandleVerifier [0x009051E0+616112]
+	(No symbol) [0x00815F8C]
+	(No symbol) [0x00812328]
+	(No symbol) [0x0081240B]
+	(No symbol) [0x00804FF7]
+	BaseThreadInitThunk [0x75E5FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]
+
+</failure>
+  </testcase>
+  <testcase name="Facebook login test" classname="example.example.tests.FaceBookLoginTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 125.0.6422.113 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DEV-LTP-461&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x0087A813+48355]&#10;	(No symbol) [0x0080C4B1]&#10;	(No symbol) [0x00715358]&#10;	(No symbol) [0x007361AC]&#10;	(No symbol) [0x00731EF3]&#10;	(No symbol) [0x00730579]&#10;	(No symbol) [0x00760C55]&#10;	(No symbol) [0x0076093C]&#10;	(No symbol) [0x0075A536]&#10;	(No symbol) [0x007382DC]&#10;	(No symbol) [0x007393DD]&#10;	GetHandleVerifier [0x00ADAABD+2539405]&#10;	GetHandleVerifier [0x00B1A78F+2800735]&#10;	GetHandleVerifier [0x00B1456C+2775612]&#10;	GetHandleVerifier [0x009051E0+616112]&#10;	(No symbol) [0x00815F8C]&#10;	(No symbol) [0x00812328]&#10;	(No symbol) [0x0081240B]&#10;	(No symbol) [0x00804FF7]&#10;	BaseThreadInitThunk [0x75E5FCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C5E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77717C2E+238]&#10;"/>
+  </testcase>
+  <testcase name="Facebook login test" classname="example.example.tests.FaceBookLoginTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

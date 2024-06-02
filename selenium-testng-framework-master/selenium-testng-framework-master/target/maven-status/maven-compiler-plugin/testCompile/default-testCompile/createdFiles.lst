@@ -1,0 +1,16 @@
+example\example\tests\GoogleSearchTest.class
+example\example\util\MailUtil.class
+example\example\util\TestProperties.class
+example\example\tests\FaceBookLoginTest.class
+example\example\tests\BaseTest.class
+example\example\factory\PageinstancesFactory.class
+example\example\context\WebDriverContext.class
+example\example\pages\GooglePage.class
+example\example\util\LoggerUtil.class
+example\example\listeners\LogListener.class
+example\example\util\ReportUtil.class
+example\example\listeners\ReportListener.class
+example\example\context\Constants.class
+example\example\pages\BasePage.class
+example\example\report\ExtentReportManager.class
+example\example\pages\FacebookLoginPage.class
